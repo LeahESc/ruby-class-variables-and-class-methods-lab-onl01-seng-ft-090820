@@ -31,5 +31,6 @@ class Song
       @@genres.each do |genre|
       genre_h[genre] 
     end
+    genre_h
   end
 end 
