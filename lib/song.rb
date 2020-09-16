@@ -30,5 +30,6 @@ class Song
     genre_h = {}
      @@genres.collect {|genre|}
      genre_h[genre] => 3
+   end
   end
 end 
