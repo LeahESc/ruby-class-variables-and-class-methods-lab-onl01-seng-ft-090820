@@ -28,7 +28,7 @@ class Song
   
   def self.genre_count
     genre_h = {}
-     @@genres.collect {|item|
-     genre_h[item] => " "}
+     @@genres.group_by {|genre| 
+     genre_h[genre]
   end
 end 
