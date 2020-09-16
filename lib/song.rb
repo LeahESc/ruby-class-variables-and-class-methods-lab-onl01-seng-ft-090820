@@ -57,5 +57,14 @@ end
     genre_h
   end
   
-  
+    def self.artist_count
+      artist_h = { }
+      @@artists.each do |artist|
+      if artist_h[artist]
+        artist_h[artist] += 1 
+      else
+        artist_h[artist] = 1
+      end
+      artist_h
+    end
 end 
